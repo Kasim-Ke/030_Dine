@@ -6,7 +6,7 @@ import Logo from "../images/logo.svg";
 
 export const Hero = () => {
   return (
-    <div className=" relative lg:max-w-[1440px] lg:h-[820px] md:max-w-[768px] md:h-[992px] max-w-[375px] h-[748px] mx-auto text-white ">
+    <div className=" relative lg:max-w-[1440px] lg:h-[820px] md:max-w-[788px] md:h-[992px] max-w-[395px] h-[748px] mx-auto text-white ">
       <div className="absolute top-0">
         <img
           className="lg:block hidden object-cover"
@@ -29,7 +29,7 @@ export const Hero = () => {
             src={Logo}
             alt="Logo"
           />
-          <div className="lg:absolute  lg:left-[167px] lg:top-[258px]  lg:w-[507px] lg:h-[364px] lg:text-start md:w-[689px] md:h-[402px] text-center  items-center mx-auto w-[327px] h-[364px]  flex flex-col justify-between   z-20">
+          <div className="lg:absolute  lg:left-[167px] lg:top-[258px]  lg:w-[507px] lg:h-[364px] lg:text-start md:w-[689px] md:h-[402px] text-center  items-center mx-auto w-[327px] h-[364px] mt-2  flex flex-col justify-between   z-20">
             <img
               className="lg:hidden block md:w-[103px] md:h-[40px] w-[82px] h-[32px]  "
               src={Logo}
