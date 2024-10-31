@@ -8,7 +8,7 @@ export default {
 
       md: "758px",
 
-      lg: "1124px",
+      lg: "1024px",
 
       xl: "1580px",
 

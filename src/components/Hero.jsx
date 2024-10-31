@@ -7,19 +7,19 @@ import Logo from "../images/logo.svg";
 export const Hero = () => {
   return (
     <div className=" relative lg:max-w-[1440px] lg:h-[820px] md:max-w-[788px] md:h-[992px] max-w-[395px] h-[748px] mx-auto text-white ">
-      <div className="absolute top-0">
+      <div className="absolute top-0  w-full h-full ">
         <img
-          className="lg:block hidden object-cover"
+          className="lg:block hidden object-cover w-full h-full"
           src={HeroDekstop}
           alt="HeroDekstop"
         />
         <img
-          className=" md:hidden block object-cover"
+          className=" md:hidden block object-cover w-full h-full"
           src={HeroMobile}
           alt="HeroMobile"
         />
         <img
-          className="lg:hidden md:block hidden object-cover"
+          className="lg:hidden md:block hidden object-cover w-full h-full"
           src={HeroTablet}
           alt="HeroTablet"
         />
@@ -43,7 +43,7 @@ export const Hero = () => {
               Experience our seasonal menu in beautiful country surroundings.
               Eat the freshest produce from the comfort of our farmhouse.
             </p>
-            <button className="w-[245px] h-[64px] lg:tracking-[2.5px] lg:leading-[16px] hover:bg-white hover:text-black duration-500 font-semibold border">
+            <button className="w-[245px] h-[64px] tracking-[2.5px] leading-[16px] hover:bg-white hover:text-black duration-500 font-semibold border">
               BOOK A TABLE
             </button>
           </div>
