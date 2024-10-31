@@ -8,10 +8,18 @@ export const Hero = () => {
   return (
     <div className=" relative lg:max-w-[1440px] lg:h-[820px] md:max-w-[768px] md:h-[992px] max-w-[375px] h-[748px] mx-auto text-white ">
       <div className="absolute top-0">
-        <img className="lg:block hidden" src={HeroDekstop} alt="HeroDekstop" />
-        <img className=" md:hidden block" src={HeroMobile} alt="HeroMobile" />
         <img
-          className="lg:hidden md:block hidden"
+          className="lg:block hidden object-cover"
+          src={HeroDekstop}
+          alt="HeroDekstop"
+        />
+        <img
+          className=" md:hidden block object-cover"
+          src={HeroMobile}
+          alt="HeroMobile"
+        />
+        <img
+          className="lg:hidden md:block hidden object-cover"
           src={HeroTablet}
           alt="HeroTablet"
         />
