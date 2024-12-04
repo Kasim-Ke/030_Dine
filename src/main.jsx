@@ -6,7 +6,7 @@ import App from "./App.jsx"; // Main App component
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <Router>
+    <Router basename="/030_dine">
       <App />
     </Router>
   </StrictMode>
